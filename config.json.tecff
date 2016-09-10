@@ -1,7 +1,7 @@
 {
   "dataPath": "https://map.tecff.de/hopglass-server/",
   "siteName": "Freifunk Altdorf",
-  "siteURL": "https://map.tecff.de/hopglass/",
+  "siteURL": "https://map.tecff.de/",
   "mapSigmaScale": 0.5,
   "showContact": true,
   "maxAlertHours": 2,
