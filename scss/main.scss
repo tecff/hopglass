@@ -407,6 +407,11 @@ table {
   color: #D89100 !important;
 }
 
+.missing-location, .missing-contact {
+  color: #D43E2A !important;
+  font-style: italic;
+}
+
 .sidebar {
   z-index: 5;
   width: $sidebarwidth;
