@@ -1,0 +1,51 @@
+{
+  "dataPath": "https://map.tecff.de/hopglass-server/",
+  "siteName": "Freifunk Altdorf",
+  "siteURL": "https://map.tecff.de/hopglass/",
+  "mapSigmaScale": 0.5,
+  "showContact": true,
+  "maxAlertHours": 2,
+  "maxAge": 7,
+  "nodeInfos": [
+    { "name": "Clients (1 Tag)",
+      "thumbnail": "https://stats.tecff.de/render/dashboard-solo/db/node?panelId=1&var-node_id={NODE_ID}&width=450&height=300&theme=light&from=now-24h",
+      "href": "https://stats.tecff.de/dashboard/db/node?var-node_id={NODE_ID}",
+      "caption": "Clients - Knoten {NODE_ID}"
+    },
+    { "name": "Traffic (24 Stunden)",
+      "thumbnail": "https://stats.tecff.de/render/dashboard-solo/db/node?panelId=6&var-node_id={NODE_ID}&width=450&height=350&theme=light&from=now-24h",
+      "href": "https://stats.tecff.de/dashboard/db/node?var-node_id={NODE_ID}",
+      "caption": "Traffic - Knoten {NODE_ID}"
+    },
+    { "name": "Clients (7 Tage)",
+      "thumbnail": "https://stats.tecff.de/render/dashboard-solo/db/node?panelId=1&var-node_id={NODE_ID}&width=450&height=300&theme=light&from=now-7d",
+      "href": "https://stats.tecff.de/dashboard/db/node?var-node_id={NODE_ID}",
+      "caption": "Clients - Knoten {NODE_ID}"
+    },
+    { "name": "Traffic (7 Tage)",
+      "thumbnail": "https://stats.tecff.de/render/dashboard-solo/db/node?panelId=6&var-node_id={NODE_ID}&width=450&height=350&theme=light&from=now-7d",
+      "href": "https://stats.tecff.de/dashboard/db/node?var-node_id={NODE_ID}",
+      "caption": "Traffic - Knoten {NODE_ID}"
+    }
+  ],
+  "mapLayers": [
+    {
+      "name": "Karte (OSM Humanitarian)",
+      "url": "https://osmtiles.tecff.de/osmhot/{z}/{x}/{y}.png",
+      "config": {
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>. Tiles courtesy of <a href=\"http://hot.openstreetmap.org\" target=\"_blank\">Humanitarian OpenStreetMap Team</a>",
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Karte (OSM Mapnik)",
+      "url": "https://osmtiles.tecff.de/osm/{z}/{x}/{y}.png",
+      "config": {
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap contributors</a>. ♥ <a href=\"http://donate.openstreetmap.org\" class=\"donate-attr\">Make a Donation</a>"
+      }
+    }
+    ],
+    "siteNames": [
+	{ "site": "tecff", "name": "Freifunk Altdorf" }
+	]		
+}
